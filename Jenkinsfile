@@ -1,6 +1,5 @@
-pipeline {
+pipeline{
 	anget any
-	
 	stages {
 		stage ('build') {
 			steps {
@@ -9,5 +8,3 @@ pipeline {
 		}
 	}
 }
-	
-	
