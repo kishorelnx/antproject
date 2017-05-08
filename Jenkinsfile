@@ -5,7 +5,7 @@ pipeline {
 		stage ('build') {
 			steps {
 			sh 'ant -f build.xml -v'
-			echo "Hi How are you Kishore..................."
+			echo "Hi How are you Kishore.............."
 			}
 		}
 	}
